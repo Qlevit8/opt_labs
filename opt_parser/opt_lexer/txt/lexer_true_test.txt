@@ -1,0 +1,5 @@
+PROCEDURE TrueTest1
+(newVar, ad, ac : FLOAT INTEGER EXT; D4C : SIGNAL;);
+	VAR adc: FLOAT; art : INTEGER;
+	BEGIN
+	END;

@@ -1,0 +1,6 @@
+﻿E:\visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opt_lexer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  translator.cpp
+E:\test\opt_parser\opt_lexer\translator.cpp(187,25): warning C4018: '>': signed/unsigned mismatch
+E:\test\opt_parser\opt_lexer\translator.cpp(196,28): warning C4018: '>': signed/unsigned mismatch
+E:\test\opt_parser\opt_lexer\translator.cpp(288,23): warning C4018: '>': signed/unsigned mismatch
+  opt_lexer.vcxproj -> E:\test\opt_parser\Debug\opt_parser.exe

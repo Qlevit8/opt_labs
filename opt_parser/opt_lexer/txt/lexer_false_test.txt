@@ -1,0 +1,8 @@
+PROCE?DURE TrueTest(VAR newVar:FLOAT;);
+	VAR newVar1:EXT;
+	VAR #newVar2:SIGNAL;
+BEGIN.
+	(* Test comment with symbold 142#@$%!(~$8)*)
+	(***) (*************************)
+	(**
+END;
