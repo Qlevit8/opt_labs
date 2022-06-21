@@ -145,7 +145,7 @@ char translator::ReadWithAdding(char symbol, vector<int> acceptable_attributes, 
 	do {
 		current_lexem += current_symbol;
 		current_symbol = file_object->ReadSymbol();
-	} while (FindAttribute(attributes[(int)current_symbol], acceptable_attributes));
+	} while (!file_object->FileIsEof() && FindAttribute(attributes[(int)current_symbol], acceptable_attributes));
 	FindInTable(current_lexem, acceptable_tables, start_coordinates);
 	return current_symbol;
 }
